@@ -41,6 +41,14 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="States.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Collision.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Projectiles.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayingState.cs" />
+    <Compile Include="ContentManager.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
